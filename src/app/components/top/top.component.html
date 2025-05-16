@@ -1,0 +1,12 @@
+<ng-container *ngIf="animal$ | async as animal">
+
+  <div>
+    <p>top works!</p>
+    <input
+      #topanimal
+      type="text"
+      [value]="animal?.species">
+
+  </div>
+
+</ng-container>
