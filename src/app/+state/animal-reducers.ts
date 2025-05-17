@@ -4,7 +4,7 @@ import {AnimalState, Gender} from './animal-state';
 
 export const initialState: AnimalState = {
   age: 10,
-  gender: Gender.female,
+  gender: Gender.male,
   name: 'Bill',
   species: 'Cat'
 }
